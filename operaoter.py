@@ -283,6 +283,66 @@ print(id(b))
 
 
 
+# bitwise operater
+a=28
+b=19
+print(a & b)
+print(a | b)
+print(a ^ b)
+print(~a)
+print(~b)
+
+# print statment
+print()
+print('the string is printed \n on the new line')
+print('we have used \t tab key')
+print('welcome to ' + 'rajkot')
+
+a=7 
+b=8
+print(a)
+print(b)
+a,b=7,8
+print(a,b)
+print(a,b,sep="/")
+
+print('atmiya',end='\t')
+print('rajkot')
+print('gujrat')
+
+# print with operater object
+a=[1,2,3,45]
+print(a)
+
+a=7
+print(a,'the variable value isprinted')
+print('the variable' ,a,'value isprinted')
+
+# string formeted string
+a=7
+print(a,'the variable value is %i'%a)
+a=23.2
+print('the value is%f'%a)
+print('the value is%8.2f'%a)
+
+a,b=7,8
+print('a=%i,b=%i' %(a,b))
+
+a='welcome to atmiya university'
+print('%s'%a)
+
+uni='atmiya'
+print('hi %s'%uni)
+print('hi %20s'%uni)
+uni='atmiya uni'
+print('hi %-20s'%uni)
+print('hi %-30s'%uni,'hello')
+print('hi %-1s'%uni,'hello')
+print('the first character is %c'%uni[0])
+print('the first character is %c the second character is %c'%(uni[0],uni[4]))
+
+
+
 
 
 
