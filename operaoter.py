@@ -342,6 +342,58 @@ print('the first character is %c'%uni[0])
 print('the first character is %c the second character is %c'%(uni[0],uni[4]))
 
 
+# 4) sets datatype
+        # 1)set
+
+a=[2,3,4,5,5,67,'abc']
+print(a)
+print(type(a))
+b=set(a)#convert list in to set(function used)
+print(b)
+print(type(b))
+a={2,3,4,5,5,67,'abc'}
+print(a)
+print(type(a))
+a={2,3,4,5,5,67,'abc',2}
+print(a)
+print(type(a))
+
+print(a[0])
+
+
+
+        # 2)frozen datatype
+a={2,3,4,5,5,67,'abc',2}
+print(a)
+print(type(a))
+b=frozenset({2,3,4,5,5,67,'abc',2})
+print(type(b))
+print(b)
+b.update({22})
+print(b)#cant update
+b.remove(2)#cant remove
+
+
+# 5)maping datatype
+a={}
+print(a)
+print(type(a))
+a={1:'abc',2:'cde',3:'efg',4:'ghi'}
+print(a)
+a={1:'abc',2:'cde',3:'efg',4:'ghi',2:'yyy'}
+print(a)
+print(type(a))
+
+a[1]='xyz'
+print(a)
+del a[1]
+print(a)
+a.pop(3)
+print(a)
+
+print(a.keys())
+print(a.values())
+
 
 
 
