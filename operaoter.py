@@ -266,6 +266,22 @@ a=list(range(8))
 print(a)
 
 
+# # identity operater
+a=7
+print(id(a))
+b=7
+print(id(b))
+
+a=[2,5,4,67,87]
+print(id(a))
+
+# b=[2,5,4,67,87]
+print(id(b))
+
+b=a
+print(id(b))
+
+
 
 
 
