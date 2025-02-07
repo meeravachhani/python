@@ -395,6 +395,70 @@ print(a.keys())
 print(a.values())
 
 
+#if statemant
+
+a=7
+if a==7:
+    print('the enter number is 7')
+
+a=8
+if a>7:
+    print('number is greter than the 7 ')
+
+a='atmiya'
+if a=='atmiya':
+    print('welcome to agtmiya')
+    print('you ate rajkot')
+
+a=7
+b=16
+if(a<b):
+    print('the value of b is grater than a')
+
+
+a=int(input('enter the price of product: '))
+b=int(input('enter the quintity you want to purchase: '))
+bill=a*b
+print(bill)
+if bill<1000:
+    print('we not deliver to home')
+
+# example for a h.w
+
+a=int(input('enter the price of product: '))
+b=int(input('enter the quintity you want to purchase: '))
+bill=a*b
+print(bill)
+if bill>=500:
+    print('you have 10% discount',bill*0.1)
+    disc=bill-bill*0.1 
+    print(disc,'total pay price')
+else:
+    print('you shoping for more mony to you 10% discount')
+
+#example for a h.w
+
+a=int(input('enter first number'))
+b=int(input('enter second value'))
+if(a>b):
+    print('a is maximum number')
+
+#if...else ststement
+
+a=int(input('enter the number'))
+if a%2==0:
+    print('number is even')
+else:
+    print('number is odd')
+
+
+a=int(input('enter the number'))
+if a<0:
+    print('number is negative')
+else:
+    print('positive number')
+
+
 
 
 
